@@ -2,6 +2,10 @@
 
 This project uses basic HTML elements to write short introduction about myself.
 
+## Link to the demo
+
+[https://basic-html-tramnguyenhere.netlify.app/](https://basic-html-tramnguyenhere.netlify.app/)
+
 ## Table of content
 
 - [Technologies](#technologies)
