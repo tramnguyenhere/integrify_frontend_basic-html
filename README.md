@@ -1,19 +1,40 @@
-# Introduction to basic HTML
+# Introduction to basic HTML Assignment
 
-Practice Git CLI, basic HTML elements and build short introduction about yourself.
+This project uses basic HTML elements to write short introduction about myself.
 
-## Requirement
+## Table of content
 
-Edit the codes in `index.html` and create a webpage to introduce yourself similar to
-[this sample](https://integrify-finland.github.io/bof-introduction-sample/)
+- [Technologies](#technologies)
+- [Project structure](#project-structure)
+- [Getting started](#getting-started)
 
-1. Make use of different tags: headings, paragraphs, link, italic, ordered list, unordered list,table, form
-2. Check out more tags that might be helpful: address, section, article, audio
-3. Make sure you do not leave unnecessary while space in your codes
-   Styling is not needed for this assignment
-4. Deploy your code base into any hosting platform of your choice. Rewrite README file to describe your project with few more details.
+<a name="technologies"></a>
 
-## Result
+## Technologies
 
-Please add also link to your deployment
-![README example](readme-example.png)
+- HTML5
+
+<a name="project-structure"></a>
+
+## Project structure
+
+```
+C:.
+│   .gitignore
+│   index.html
+│   README.md
+│
+└───assets
+    └───audio
+            greeting.mp3
+```
+
+<a name="getting-started"></a>
+
+## Getting started
+
+Clone the repository from github:
+
+```
+git clone https://github.com/tramnguyenhere/integrify_frontend_basic-html.git
+```
