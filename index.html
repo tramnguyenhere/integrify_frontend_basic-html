@@ -40,61 +40,59 @@
                 </p>
                 <h3 style="margin: 0;">Places I have been</h3>
                 <table style="width: fit-content;">
-                    <tr>
-                        <th>
-                            City
-                        </th>
-                        <th>
-                            Country
-                        </th>
-                        <th>
-                            Duration
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>
-                            Danang
-                        </td>
-                        <td>
-                            Vietnam
-                        </td>
-                        <td>
-                            20 years
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Vaasa
-                        </td>
-                        <td>
-                            Finland
-                        </td>
-                        <td>
-                            2.5 years
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Tampere
-                        </td>
-                        <td>
-                            Finland
-                        </td>
-                        <td>
-                            1 year
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Helsinki
-                        </td>
-                        <td>
-                            Finland
-                        </td>
-                        <td>
-                            Less than 1 year
-                        </td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>City</th>
+                            <th>Country</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Danang
+                            </td>
+                            <td>
+                                Vietnam
+                            </td>
+                            <td>
+                                20 years
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Vaasa
+                            </td>
+                            <td>
+                                Finland
+                            </td>
+                            <td>
+                                2.5 years
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Tampere
+                            </td>
+                            <td>
+                                Finland
+                            </td>
+                            <td>
+                                1 year
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Helsinki
+                            </td>
+                            <td>
+                                Finland
+                            </td>
+                            <td>
+                                Less than 1 year
+                            </td>
+                        </tr>
+                    </tbody>  
                 </table>
             </section>
         </section>
@@ -136,20 +134,28 @@
         <section id="contact-form">
             <h2>Leave me a message</h2>
             <form style="display: flex; flex-direction: column; width: fit-content;">
-                <label for="name">Your full name: </label>
-                <input type="text" id="name" placeholder="e.g.: John Doe">
-                <label for="name">Your email: </label>
-                <input type="email" placeholder="e.g.: johndoe@gmail.com">
+                <div class="contact-form__full-name">
+                    <label for="name">Your full name: </label>
+                    <input type="text" id="name" placeholder="e.g.: John Doe">
+                </div>
+                <div class="contact-form__email">
+                    <label for="name">Your email: </label>
+                    <input type="email" placeholder="e.g.: johndoe@gmail.com">
+                </div>
                 <select style="margin: 10px 0;" name="Message purpose">
                     <option value="collaboration">To collab in a project</option>
                     <option value="collaboration">For job opportunity</option>
                     <option value="collaboration">For networking</option>
                     <option value="collaboration">Related to my personal projects</option>
                 </select>
-                <label for="message">Leave your message here:</label>
-                <textarea cols="30" rows="10"></textarea>
-                Attach your media files here (if available): 
-                <input type="file">
+                <div class="contact-form__message" style="display: flex; flex-direction: column;">
+                    <label for="message">Leave your message here:</label>
+                    <textarea cols="30" rows="10"></textarea>
+                </div>
+                <div class="contact-form__attachment">
+                    <label for="attachment"> Attach your media files here (if available): </label>
+                    <input type="file">
+                </div>
                 <button style="margin-top: 20px;" type="submit">Send</button>
             </form>
         </section>
